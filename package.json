@@ -1,0 +1,27 @@
+{
+  "name": "stormpath",
+  "version": "0.0.0",
+  "description": "A Simple Web App With Node.js, Express, Bootstrap &amp; Stormpath",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsabalete/stormpath.git"
+  },
+  "author": "David Sabalete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsabalete/stormpath/issues"
+  },
+  "homepage": "https://github.com/dsabalete/stormpath",
+  "dependencies": {
+    "csurf": "^1.8.3",
+    "express": "^4.13.3",
+    "express-stormpath": "^1.0.6",
+    "forms": "^1.1.1",
+    "jade": "^1.11.0",
+    "xtend": "^4.0.0"
+  }
+}
